@@ -8,8 +8,8 @@ interface person {
 interface job {
     public String getPosition();
     public String setPosition();
-    public int getEmpiD();
-    public int setEmpID();
+    public String getEmpiD();
+    public String setEmpID();
 }
 class Employee {
     private String Name;
